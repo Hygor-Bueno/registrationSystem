@@ -6,7 +6,7 @@ aside.menu-area{
 .menu a{
     display: block;
     text-decoration: none;
-    color:#fff !important;
+    color:#fff;
     padding:15px;
     font-weight:15px;
 }
