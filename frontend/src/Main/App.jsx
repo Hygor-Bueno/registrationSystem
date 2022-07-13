@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 
 import Logo from '../components/templates/Logo';
 import Nav from '../components/templates/Nav';
