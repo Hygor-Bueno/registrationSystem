@@ -4,7 +4,7 @@ import Header from './Header';
 
 export default function Nav(props){
     return <React.Fragment>
-        <Header />
+        <Header {...props}/>
         <main className="content">
             Conteúdo
         </main>

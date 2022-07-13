@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 import Logo from '../components/templates/Logo';
 import Nav from '../components/templates/Nav';
@@ -11,7 +13,7 @@ export default function App(props){
         <div className="app">
             <Logo/>
             <Nav/>
-            <Main/>
+            <Main icon="home" title="Início" subtitle="Projeto react..."/>
             <Footer/>
         </div>
     )
