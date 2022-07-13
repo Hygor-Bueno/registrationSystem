@@ -2,13 +2,13 @@
   "users": [
     {
       "id": 1,
-      "name": "Arthur Oliveria",
+      "name": "Arthur Oliveria alt",
       "email": "aoliveira@gmail.com"
     },
     {
-      "id": 2,
-      "name": "Mariana Sorares",
-      "email": "soaresmaria@gmail.com"
+      "name": "Hygor Azevedo",
+      "email": "hygor_knd.x1@hotmail.com",
+      "id": 2
     }
   ]
 }
