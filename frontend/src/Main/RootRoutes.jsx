@@ -7,9 +7,9 @@ import UserCrud from '../components/user/UserCrud';
 export default function RootRoute(props){
     return(
         <Routes>
-            <Route exact path="/" element={<Home/>} />
-            <Route path="/users" element={<UserCrud/>} />
-            <Route to="/" element={<Home/>}/>
+            <Route exact path="/GLOBAL/View/build/" element={<Home/>} />
+            <Route path="/GLOBAL/View/build/users" element={<UserCrud/>} />
+            <Route to="/GLOBAL/View/build/" element={<Home/>}/>
         </Routes>
     )
 }

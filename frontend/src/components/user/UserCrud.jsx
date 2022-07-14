@@ -8,7 +8,7 @@ const headerProps ={
     subtitle:"Cadastro de usuários: Incluir,Listar,Alterar e Excluir!"
 }
 
-const baseUrl = 'http://localhost:3001/users';
+const baseUrl = 'http://192.168.0.99:71/GLOBAL/View/build/users';
 const initialState = {
     user:{name:"",email:""},
     list:[]

@@ -6,12 +6,13 @@ export default function Nav(props){
     return <aside className="menu-area">
         <nav className="menu">
             {/* Refatora no fim do projeto... Criar componente NavItem*/}
-            <Link to="/">        
+            <Link to="/GLOBAL/View/build/">        
                 <i className="fa fa-home"></i> Inicio          
             </Link>
-            <Link to="/users">               
+            <Link to="/GLOBAL/View/build/users">               
                 <i className="fa fa-users"></i> Usuários             
             </Link>
         </nav>
     </aside>
 }
+
